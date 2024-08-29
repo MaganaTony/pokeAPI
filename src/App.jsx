@@ -19,7 +19,7 @@ export default function App() {
   return (
     <main className="p-4">
       <header className="w-full text-center mb-4 font-bold bg-amber-600 p-1">PokeApi</header>
-      <section className="grid grid-cols-1 md:grid-cols-4 ">
+      <section className="grid grid-cols-1 md:grid-cols-4 gap-2 ">
         {pokemons.map(pokemon => {
           return <Pokemon key={pokemon.name} name={pokemon.name} />
         })}
