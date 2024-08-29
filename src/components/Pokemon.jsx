@@ -15,7 +15,7 @@ export default function Pokemon({ name }) {
     }, [])
     
     return (
-        <article>
+        <article className="bg-zinc-700 border">
             <h2>{pokemon.name}</h2>
             <img className="size-14" src={pokemon.sprites?.other["official-artwork"]?.front_default} alt={pokemon.name} />
         </article>
