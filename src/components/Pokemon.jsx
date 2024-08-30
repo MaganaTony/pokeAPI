@@ -25,7 +25,7 @@ export default function Pokemon({ name }) {
         {pokemon.name}
       </h2>
       <img
-        className="size-36 transform transition-transform duration-300 my-auto file:group-hover:scale-110"
+        className="size-36 transform transition-transform duration-300 my-auto group-hover:scale-150"
         src={pokemon.sprites?.other["official-artwork"]?.front_default}
         alt={pokemon.name}
       />
