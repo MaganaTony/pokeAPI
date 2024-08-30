@@ -24,7 +24,7 @@ export default function Pokemon({ name }) {
             <h2 className="font-bold w-full text-center rounded-lg my-2 bg-slate-900/80 transition-colors duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-yellow-500">
                 {pokemon.name}
             </h2>
-            <img className="size-14 transform transition-transform duration-300 group-hover:scale-110" src={pokemon.sprites?.other["official-artwork"]?.front_default} alt={pokemon.name} />
+            <img className="size-14 transform transition-transform duration-300 group-hover:scale-125" src={pokemon.sprites?.other["official-artwork"]?.front_default} alt={pokemon.name} />
         </article>
     );
 }
