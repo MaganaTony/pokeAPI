@@ -11,3 +11,4 @@ export async function getPokemonbyName(name) {
   const responseJson = await response.json();
   return responseJson;
 }
+
