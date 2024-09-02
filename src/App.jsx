@@ -1,0 +1,1 @@
+//Deprecated component, not using it anymore, use main.jsx instead
